@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ed"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/dice_1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sbutton2"
+                style="@style/mbutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roll" />
+
+            <EditText
+                android:id="@+id/editText"
+                style="@style/textEdittext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/sbutton"
+                android:layout_centerInParent="true"
+                android:hint="@string/What_is_Your_name"
+                android:inputType="textPersonName"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+            <TextView
+                android:id="@+id/tv"
+                style="@style/textEdittext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="48sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sbutton"
+                style="@style/mbutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\nA brown fox jumps quickly\nover the lazy dog\n"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+
+</ScrollView>
